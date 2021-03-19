@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,7 +11,7 @@
     <PackageProjectUrl>https://github.com/chyccs/choi-bytebuffer.git</PackageProjectUrl>
     <Copyright>free</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageIconUrl>https://www.nuget.org/profiles/chyccs/avatar?imageSize=256</PackageIconUrl>
+    <PackageIcon>images\choi_icon.png</PackageIcon>
     <AssemblyVersion>0.1.1.1</AssemblyVersion>
     <FileVersion>0.1.1.1</FileVersion>
   </PropertyGroup>

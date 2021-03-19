@@ -20,6 +20,8 @@ namespace Choi.ByteBuffer
 
         IByteBuffer Put(params byte[] b);
 
+        IByteBuffer Put(string b, int length);
+
         IByteBuffer Put(byte[] b, int length);
 
         IByteBuffer PutNull(int length);

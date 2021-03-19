@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Choi.ByteBuffer
 {
@@ -32,6 +33,11 @@ namespace Choi.ByteBuffer
             }
 
             return this;
+        }
+
+        public IByteBuffer Put(string inputs, int length)
+        {
+            return Put(Encoding.UTF8.GetBytes(inputs), length);
         }
 
         public IByteBuffer Put(byte[] inputs, int length)
